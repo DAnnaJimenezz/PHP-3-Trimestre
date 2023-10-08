@@ -10,7 +10,7 @@
         <input type="number" name = 'operador1' value placeholder = 'Operador1'>
         <input type="number" name = 'operador2' value placeholder = 'Operador1'>
 
-        <select name="Operaciones" id="operacion">
+        <select name="operaciones" id="operaciones">
             <option value="sumar">Sumar</option>
             <option value="restar">Restar</option>
             <option value="multiplicar">Multiplicar</option>
