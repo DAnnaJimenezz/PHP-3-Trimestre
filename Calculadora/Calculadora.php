@@ -65,23 +65,23 @@ class Calculadora {
     }
 
     
-    public function get_operando1(){
+    public function get_operador1(){
         return $this->operador1;
     }
 
-    public function set_operando1 (int $operando1){
+    public function set_operador1 (int $operador1){
         if(!empty($operador1) && is_numeric($operador1)){
-            $this->operador1 = $operador1;
+            $this->operador1 = $num1;
         }
-        }
+        }git 
 
-        public function get_operando2(){
+        public function get_operador2(){
             return $this-> operador2;
         }
 
-        public function set_operando2 (int $operando2){
+        public function set_operador2 (int $operador2){
             if(!empty($operador2) && is_numeric($operador2)){
-                $this->operador2 = $operador2;
+                $this->operador2 = $num2;
         }
         }   
 
