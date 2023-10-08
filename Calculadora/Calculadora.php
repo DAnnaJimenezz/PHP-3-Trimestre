@@ -73,7 +73,7 @@ class Calculadora {
         if(!empty($operador1) && is_numeric($operador1)){
             $this->operador1 = $num1;
         }
-        }git 
+        }
 
         public function get_operador2(){
             return $this-> operador2;
