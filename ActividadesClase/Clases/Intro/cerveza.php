@@ -75,6 +75,7 @@ echo '<br>' . 'Precio del vino: ' . $cerveza3 -> get_precio();
 
 echo '<br>';
 
+
 echo '<br>' . 'Marca de la cerveza: ' . $cerveza4 -> get_marca();
 echo '<br>' . 'Lugar de origen del vino: ' . $cerveza4 -> get_ingredientes();
 echo '<br>' . 'Precio del vino: ' . $cerveza4 -> get_precio();
