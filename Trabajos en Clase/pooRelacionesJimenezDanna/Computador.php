@@ -11,7 +11,6 @@ class Computador {
     private string $suiteOficina;
     private string $procesador;
     private int $numPuertosUSB;
-    public static $devolverFechaActual;
     public static $contador = 0;
 
 
@@ -32,40 +31,40 @@ class Computador {
     //Metodos GET
 
     public function get_fabricante(){
-        return $this -> $fabricante;
+        return $this -> fabricante;
     }
 
     public function get_capMemoria(){
-        return $this -> $capMemoria;
+        return $this -> capMemoria;
     }
 
     public function get_tipoMemoria(){
-        return $this -> $tipoMemoria;
+        return $this -> tipoMemoria;
     }
     
     public function get_tipoAlmacenamiento(){
-        return $this -> $tipoAlmacenamiento;
+        return $this -> tipoAlmacenamiento;
     }
 
         
     public function get_capAlmacenamiento(){
-        return $this -> $capAlmacenamiento;
+        return $this -> capAlmacenamiento;
     }
 
     public function get_sistemaOperativo(){
-        return $this -> $sistemaOperativo;
+        return $this -> sistemaOperativo;
     }
 
     public function get_suiteOficina(){
-        return $this -> $suiteOficina;
+        return $this -> suiteOficina;
     }
 
     public function get_procesador(){
-        return $this -> $procesador;
+        return $this -> procesador;
     }
 
     public function get_numPuertosUSB(){
-        return $this -> $numPuertosUSB;
+        return $this -> numPuertosUSB;
     }
 
     //Metodos SET
@@ -108,12 +107,8 @@ class Computador {
 
     // Funcion estatica que devuelve la hora y fecha actuales
 
-    public function fechaActual (){
-        $devolverFechaActual  = date('Y-m-d H:i:s');
-        return $devolverFechaActual;
-        
-        $devolverFechaActual = fechaActual();
-        echo '<br>'. 'La hora y fecha actuales son :' . $devolverFechaActual;
+    public static function fechaActual (){
+        return date('Y-m-d H:i:s');
     }
 
     // Funcion estatica para contar los objetos creados
