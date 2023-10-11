@@ -120,5 +120,5 @@ elseif ($operaciones === 'multiplicar') {
     echo 'La multiplicacion entre los dos operadores es : ' . $calculos1->multiplicar($num1,$num2) . '<br>';
 }
 elseif ($operaciones === 'dividir') {
-    echo 'La division entre los dos operadores es: ' . $calculos->dividir($num1,$num2) . '<br>';
+    echo 'La division entre los dos operadores es: ' . $calculos1->dividir($num1,$num2) . '<br>';
 }
