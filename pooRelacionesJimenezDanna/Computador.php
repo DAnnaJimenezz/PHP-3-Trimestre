@@ -108,7 +108,7 @@ class Computador {
     // Funcion estatica que devuelve la hora y fecha actuales
 
     public static function fechaActual (){
-        return date('Y-m-d H:i:s');
+        return date('Y-m-d');
     }
 
     // Funcion estatica para contar los objetos creados
