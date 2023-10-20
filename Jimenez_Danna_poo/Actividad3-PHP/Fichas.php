@@ -104,14 +104,14 @@ $ficha2 = new Fichas ('2693629');
 $ficha2->agregarAprendices($aprendiz3);
 $ficha2->agregarAprendices($aprendiz4);
 
-// Se obtiene la lista de los aprendices de la ficha1
+// Se obtiene la lista de los aprendices de la ficha2
 $aprendicesFicha2 = $ficha2->getAprendices();
 echo 'Ficha: ' . $ficha2->getNumFicha();
 echo '<br>';
 echo 'Aprendices que estan dentro de la ficha: ';
 echo '<br>';
 
-//Se imprime los aprendices de la ficha 1
+//Se imprime los aprendices de la ficha 2
 foreach ($aprendicesFicha2 as $aprendiz){
     echo 'Nombre: '. $aprendiz->getNombre() . '<br>', 
     'Apellido: '. $aprendiz->getApellido() . '<br>', 
